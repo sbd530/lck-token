@@ -1,7 +1,10 @@
 {
   "scripts": {
-    "scripts": "npx ts-node-dev --transpile-only --respawn scripts/",
-    "test": "npx hardhat test"
+    "scripts": "npx ts-node-dev --transpile-only --respawn",
+    "test:local": "npx hardhat test",
+    "test:matic": "npx hardhat test --network matic",
+    "coverage:local": "npx hardhat coverage",
+    "coverage:matic": "npx hardhat coverage --network matic"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.6",
