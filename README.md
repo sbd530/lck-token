@@ -1,10 +1,10 @@
 # Development env
 
-- OS : Windows 10
-- Node.js : v16.13.1
-- Typescript : ^4.7.2
-- hardhat : ^2.9.7
-- solidity : ^0.8.0
+- OS : `Windows 10`
+- Node.js : `v16.13.1`
+- Typescript : `^4.7.2`
+- hardhat : `^2.9.7`
+- solidity : `^0.8.0`
 
 # :wrench: Installation
 
